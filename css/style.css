@@ -1,0 +1,85 @@
+.bg-primary{
+    background:  hwb(300 7% 93%);
+    /* background: linear-gradient(to right ,#00b09b , #96c93d  ) */
+}
+
+.bg{
+    /* background: linear-gradient(to right ,#373737 , #5e5e60 )!important; */
+    background: #292a29 
+}
+
+.my-icon{
+    font-size: 80px!important;
+    color:#fc00ff;
+    /* color: #00b09b */
+}
+
+.services-container{
+    border:.5px solid #fc00ff;
+    padding: 25px;
+    cursor: pointer;
+    transition: 200ms all ease-in-out;
+}
+.services-container:hover{
+    background: black;
+    color:rgb(203, 199, 199);
+    border-radius: 20px;
+}
+
+.innerBox {
+    min-width: 50px;
+    min-height: 480px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #000000;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .innerBox1 {
+   
+    width: 300px;
+    
+  }
+
+
+.card{
+    max-width:91vw;
+    margin:auto;
+    background-color: hwb(0 0% 100%);
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+    background-color: hwb(0 0% 100%);
+}
+
+.card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 10px;
+   
+}
+
+.card h5{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.card p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+hr { background-color: #00ffaae5; height: 1px; border: 0; margin:0%}
+
+.border{
+    border:.5px solid #00ffaae5;
+}
+
